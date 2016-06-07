@@ -1,0 +1,163 @@
+<N20015>
+    <A250 valueType="4">0</A250>
+    <N23009>
+        <N23009>
+            <A3010 valueType="7">abstract1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">subject</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">science</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">degree</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">replyDate</A3010>
+            <A3011 valueType="2">D</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">secret</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">foreignSubject</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorName1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorUnits1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorName2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorUnits2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">length</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">referLength</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">abstract2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">research</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">country</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">audit</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">views</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">listing</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">school</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">scanNumber</A3010>
+            <A3011 valueType="2">Z</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">schoolID</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">keyword2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorname3</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorunits3</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">name</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">college1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">professname</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">refer</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">listry</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">RUID</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">keyword1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">paperState</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">PERMISSIONTYPE</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">STATEFLAG</A3010>
+            <A3011 valueType="2">Z</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_102c9401000086XXXX_0</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_10c6c679000016XXXX_1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_102aef92000048XXXX_2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_119ebc470009c6c351_3</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <A3003 valueType="4">0</A3003>
+    </N23009>
+    <N23008/>
+</N20015>

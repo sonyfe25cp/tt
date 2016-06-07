@@ -1,2 +1,5 @@
 .ipynb_checkpoints/
 MNIST_data/
+data/papers/
+.idea/
+
