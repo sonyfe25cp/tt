@@ -1,0 +1,236 @@
+<N20015>
+    <A250 valueType="4">0</A250>
+    <N23009>
+        <N23009>
+            <A3010 valueType="7">abstract1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">subject</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">science</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">degree</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">replyDate</A3010>
+            <A3011 valueType="2">D</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">secret</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">foreignSubject</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorName1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorUnits1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorName2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorUnits2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">length</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">referLength</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">abstract2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">research</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">country</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">audit</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">views</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">listing</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">school</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">scanNumber</A3010>
+            <A3011 valueType="2">Z</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">schoolID</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">keyword2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorname3</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">tutorunits3</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">name</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">college1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">professname</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">refer</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">listry</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">RUID</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">keyword1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">paperState</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">PERMISSIONTYPE</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">STATEFLAG</A3010>
+            <A3011 valueType="2">Z</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_102c9401000086XXXX_0</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_10c6c679000016XXXX_1</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_102aef92000048XXXX_2</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <N23009>
+            <A3010 valueType="7">_119ebc470009c6c351_3</A3010>
+            <A3011 valueType="2">C</A3011>
+        </N23009>
+        <A3003 valueType="4">1</A3003>
+    </N23009>
+    <N23008>
+        <N23008>
+            <A3015 valueType="7">本文对水介质状态方程、钨铜材料模型进行了理论分析。根据量纲分析的方法，分析和模拟了聚能射流侵彻水中复合靶板
+                的相似律。通过实验和数值模拟，对比研究了钨铜和紫铜聚能射流水中侵彻规律的差异。从计算的角度，研究了炸高、药型罩壁厚
+                及比重对钨铜聚能射流水中侵彻效果的影响规律。本文的主要结论包括：1. 水的冲击压缩数据是水介质状态方程中最重要的形式。数值研究聚能射流水中侵彻规律时可采用Hugoniot状态方程。2.
+                可以利用混合物的叠加原理来确定钨铜合金材料的冲击压缩参数。3. 聚能射流的形成以及射流对水中复合靶板的侵彻满足几何相似律。4. 在地面上进行聚能射流水中侵彻模型实验时，为消除稀疏
+                波的影响，盛水管道半径应不小于0.3倍的管道高度。5. 在相同的炸药/药型罩重量比例条件下，无论锥形药型罩，还是球缺形药型罩，钨铜射流水中侵彻速度及剩余速度都高于紫铜射流。6.
+                在一定的炸药/药型罩重量比例条件下，钨铜射流在空中或水中侵彻后
+                效钢板存在一个最佳炸高。7. 在小炸高条件下，水中射流对后效钢板的侵彻深度大于空中射流情形，此时，水介质在一定程度上起到炸高的作用。8.
+                在一定药量和炸高条件下，水中钨铜射流对后效钢板的侵彻深度存在一个最佳的药型罩壁厚。9. 在一定药量、
+                炸高及药型罩壁厚条件下，水中射流对后效钢板的侵彻深度存在一个最佳的钨铜比重。
+            </A3015>
+            <A3015 valueType="7">钨铜聚能射流水中侵彻规律研究</A3015>
+            <A3015 valueType="7">力学</A3015>
+            <A3015 valueType="7">4</A3015>
+            <A3015 valueType="7">2007-12-17</A3015>
+            <A3015 valueType="7">公开</A3015>
+            <A3015 valueType="7">Research on underwater penetration of shaped charge with tungsten-copper liner</A3015>
+            <A3015 valueType="7">黄风雷</A3015>
+            <A3015 valueType="7">宇航学院</A3015>
+            <A3015 valueType="7">吴成</A3015>
+            <A3015 valueType="7">宇航科学技术学院</A3015>
+            <A3015 valueType="7">74</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7">Equation of state (EOS) for water and material parameters for W-Cu liner were analyzed
+                theoretically.&amp;nbsp; Based on dimensional analysis, the similitude law of shaped charge penetrating
+                into water was researched and simulated.&amp;nbsp; Experimentally and computationally, the differences
+                between shaped charge with W-Cu liner and Cu liner were compared when penetrating into water.&amp;nbsp;
+                The factors, such as standoff, liner thickness and liner density, which influence the shaped charge
+                penetrating into water were investigated by numerical simulation.&amp;nbsp; Some main conclusions are
+                listed below:1. Rankine-Hugoniot data of water is the most importmant aspect for water EOS.&amp;nbsp;
+                Hugoniot EOS can be adopted when simulating shaped charge penetrating into water.2. The superposition
+                principle of mixture can be used to determine the Hugoniot parameters of W-Cu liner.3. The formation of
+                shaped charge and its penetrating compound target into water remain similarity law.4. In order to
+                eliminate the effect of sparse wave in water, the radius should be larger than 0.3 times height of the
+                tube when doing experiments of shaped charge on the ground.5. Given a certain weight ratio of explosive
+                and liner, W-Cu jet, with cone liner or hemisphere liner, has higher penetrating velocity and residual
+                velocity than those of Cu jet.6. Given a certain weight ratio of explosive and liner, there exists an
+                optimum standoff for W-Cu shaped charge penetrating steel plate both in water and in air.7. Under small
+                standoff, the penetration of steel plate of shaped charge in water was larger than that in air.&amp;nbsp;
+                In this case, water to some extent acts as standoff.8. Given a certain explosive weight and standoff,
+                there exists an optimum liner thickness for W-Cu shaped charge penetrating steel plate in water.9. Given
+                a certain explosive weight, standoff and liner thickness, there exists an optimum density of W-Cu liner
+                when its jet penetrates steel plate in water.
+            </A3015>
+            <A3015 valueType="7">聚能射流</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7">审核合格</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7">北京理工大学</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7">W-Cu liner；Shaped charge；Penetrating into water；Equation of state and material
+                parameters；Dimensional analysis；Experiments；Numerical simulations
+            </A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7">张向荣</A3015>
+            <A3015 valueType="7">142643dc000001c351</A3015>
+            <A3015 valueType="7">工程力学</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7">00054574</A3015>
+            <A3015 valueType="7">149cc3fd00000a00ea</A3015>
+            <A3015 valueType="7">钨铜药型罩；聚能射流；水中侵彻；状态方程及材料参数；量纲分析；实验；数值模拟</A3015>
+            <A3015 valueType="7">提交</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="4">78</A3015>
+            <A3015 valueType="7">博士后</A3015>
+            <A3015 valueType="7">宇航学院</A3015>
+            <A3015 valueType="7"></A3015>
+            <A3015 valueType="7"></A3015>
+        </N23008>
+    </N23008>
+</N20015>

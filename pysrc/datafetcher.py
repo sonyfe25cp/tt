@@ -5,6 +5,8 @@ import codecs
 
 import requests
 from paper import Paper
+from analysis import HawkEye
+
 try:
     import xml.etree.cElementTree as ET
 except ImportError:
@@ -12,7 +14,7 @@ except ImportError:
 import sys
 import os
 from time import time
-
+import json
 
 
 def getHtml(url):
@@ -59,6 +61,7 @@ def fetch_details(paper_id):
     f.write(text)
     f.close()
 
+
 def parse_list(file_path):
     papers = []
     try:
@@ -82,8 +85,9 @@ def parse_list(file_path):
         print root.tag, "---", root.attrib
     return papers
 
-def fetch_paper_details(papers):
-    papers_folder = os.listdir('../data/papers')
+
+def fetch_paper_details(papers, folder_path):
+    papers_folder = os.listdir(folder_path)
     print 'there are', len(papers), 'papers need to fetch'
     print 'i have fetched', len(papers_folder), 'papers'
     print len(papers) - len(papers_folder), 'need to finish'
@@ -91,19 +95,93 @@ def fetch_paper_details(papers):
     t0 = time()
     for paper in papers:
         paper_id = paper.paper_id
-        file_name = paper_id+".xml"
+        file_name = paper_id + ".xml"
         if file_name not in papers_folder:
             # print 'fetching ' + paper_id
             fetch_details(paper_id)
             i += 1
             if i % 100 == 0:
-                print 'have fetched', str(i), 'papers, cost', time()-t0, 's'
+                print 'have fetched', str(i), 'papers, cost', time() - t0, 's'
     print i
 
-if __name__ == '__main__':
-    # fetch_list()
-    # fetch_details('1d1af609000021c351')
-    # papers = parse_list("../data/list_sample.xml")
-    papers = parse_list("../data/list.xml")
-    fetch_paper_details(papers)
 
+def parse_details(xml_string):  # parse details of xml
+    try:
+        tree = ET.parse(xml_string)  # 打开xml文档
+        root = tree.getroot()  # 获得root节点
+        n_parent = root.findall('N23008')[0]
+        for node_group in n_parent.findall('N23008'):
+            attributes = node_group.findall('A3015')
+            paper_abstract = attributes[0].text
+            title = attributes[1].text
+            major_first = attributes[2].text
+            major_type = attributes[3].text
+            defence_date = attributes[4].text
+            open_status = attributes[5].text
+            mentor = attributes[7].text
+            mentor_school = attributes[8].text
+            author = attributes[25].text
+            major = attributes[27].text
+            student_id = attributes[29].text
+            paper_id = attributes[30].text
+            keywords = attributes[31].text
+            degree = attributes[35].text
+            school = attributes[36].text
+
+            # print 'paper_id', paper_id
+            # print 'paper_abstract', paper_abstract
+            # print 'title', title
+            # print 'major_first', major_first
+            # print 'major', major
+            # print 'open_status', open_status
+            # print 'mentor', mentor
+            # print 'mentor_school', mentor_school
+            # print 'author', author
+            # print 'student_id', student_id
+            # print 'key_words', keywords
+            # print 'degree', degree
+            # print 'school', school
+
+            # print paper_id, title, author, mentor, student_id, major_type, defence_date
+            paper = Paper(paper_id, paper_abstract, title, author, mentor, mentor_school, student_id, major_first,
+                          major, open_status, major_type, defence_date, keywords, degree, school)
+
+            # print paper
+            # print json.dumps(paper, sort_keys=True)
+            return paper
+    except Exception, e:
+        print e
+        print root.tag, "---", root.attrib
+
+
+def parse_all_details(folder_path):
+    paper_details = []
+    paper_names = os.listdir(folder_path)
+    i = 0
+    for p_name in paper_names:
+        p_path = folder_path + "/" + p_name
+        paper = parse_details(p_path)
+        paper_details.append(paper)
+        # print p_path, paper.paper_id
+        i = i + 1
+        if i > 100:
+            break
+    return paper_details
+
+
+if __name__ == '__main__':
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+    # fetch_list() #fetch all the list
+    # fetch_details('1d1af609000021c351') #fetch details page in the list
+    # papers = parse_list("../data/list_sample.xml") #get meta info of paper
+    # papers = parse_list("../data/list.xml")
+    # folder_path = '../data/papers_sample'
+    folder_path = '../data/papers'
+    # fetch_paper_details(papers, folder_path) #fet details info of paper
+    all_paper_details = parse_all_details(folder_path)  # fetch all
+    print 'all_paper_details length:', len(all_paper_details)
+    he = HawkEye(all_paper_details)
+    # he.desc()
+    he.desc_school('计算机学院')
+    he.desc_mentor('计算机学院', '战守义')
