@@ -162,8 +162,10 @@ def parse_all_details(folder_path):
         p_path = folder_path + "/" + p_name
         paper = parse_details(p_path)
         paper_details.append(paper)
+        if paper.school == u'计算机学院':
+            print paper.paper_id, paper.student_id, paper.defence_date
         # print p_path, paper.paper_id
-        i = i + 1
+            i = i + 1
         if i > 100:
             break
     return paper_details
@@ -183,5 +185,6 @@ if __name__ == '__main__':
     print 'all_paper_details length:', len(all_paper_details)
     he = HawkEye(all_paper_details)
     # he.desc()
-    he.desc_school('计算机学院')
-    he.desc_mentor('计算机学院', '战守义')
+    # he.desc_school('计算机学院')
+    # he.desc_mentor('计算机学院', '战守义')
+    he.desc_all()
