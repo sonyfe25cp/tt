@@ -1,6 +1,5 @@
-$def with (name)
+$def with (school_meta_map)
 
-$if name:
-    I just wanted to say <em>hello</em> to $name.
-$else:
-    <em>Hello</em>, world!
+$if school_meta_map:
+    $for key in school_meta_map.keys():
+        <li>$key</li>
